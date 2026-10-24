@@ -37,12 +37,46 @@
           <label for="telefono">Teléfono</label>
           <input type="tel" id="telefono" name="telefono">
         </div>
+        <div>
+          <label for="servicio">Servicio de interés</label>
+          <select id="servicio" name="servicio">
+            <option value="sitio-institucional">Sitio institucional</option>
+            <option value="tienda-online">Tienda online</option>
+            <option value="rediseno">Rediseño web</option>
+            <option value="mantenimiento">Mantenimiento mensual</option>
+          </select>
+        </div>
+
+        <fieldset class="campo-ancho">
+          <legend>¿Cómo preferís que te contactemos?</legend>
+          <label for="pref-email">
+            <input type="checkbox" id="pref-email" name="preferencia" value="email"> Email
+          </label>
+          <label for="pref-telefono">
+            <input type="checkbox" id="pref-telefono" name="preferencia" value="telefono"> Teléfono
+          </label>
+          <label for="pref-whatsapp">
+            <input type="checkbox" id="pref-whatsapp" name="preferencia" value="whatsapp"> WhatsApp
+          </label>
+        </fieldset>
+
+        <div class="campo-ancho">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="5"></textarea>
+        </div>
+
+        <div class="campo-ancho">
+          <button type="submit">Enviar</button>
+        </div>
       </form>
     </section>
   </main>
 
   <footer id="site-footer">
     <p>&copy; 2026 PixelNorte</p>
+  </footer>
+      </form>
+    </section>
   </footer>
 </body>
 </html>
