@@ -1,0 +1,10 @@
+# Temporales del editor
+*~
+*.swp
+# Logs
+*.log
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+# Notas personales
+notas.txt
