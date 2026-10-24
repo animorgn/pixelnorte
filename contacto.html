@@ -1,16 +1,48 @@
-<!DOCTYPE html>
+<<!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<title>PixelNorte - Diseño Web</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PixelNorte - Contacto</title>
 </head>
 <body>
-<h1>PixelNorte</h1>
-<h2>Sobre nosotros</h2>
-<p>Somos un estudio de diseño web con sede en Río Negro.</p>
-<h2>Nuestros servicios</h2>
-<p>Diseño de sitios, mantenimiento y hosting.</p>
-<p><strong>Importante:</strong> el sitio está en <em>construcción</em>.</p>
+  <header id="site-header">
+    <h1>PixelNorte</h1>
+    <nav id="nav-principal">
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
 
+  <main>
+    <section id="contacto">
+      <h2>Contacto</h2>
+      <p>¿Tenés un proyecto en mente? Escribinos y te respondemos en menos de 48 horas.</p>
+
+      <form id="formulario-contacto" action="#" method="post">
+        <div>
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+
+        <div>
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+
+        <div>
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+      </form>
+    </section>
+  </main>
+
+  <footer id="site-footer">
+    <p>&copy; 2026 PixelNorte</p>
+  </footer>
 </body>
 </html>
