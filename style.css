@@ -1,0 +1,11 @@
+css
+/* Paleta PixelNorte
+   Principal:  #5A2335  (bordo)
+   Secundario: #B9C9E4  (celeste)
+   Claro:      #D6E2F7
+   Texto:      #2B2B2B
+*/
+
+* {
+  box-sizing: border-box;
+}
