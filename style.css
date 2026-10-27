@@ -91,6 +91,29 @@ img {
   border-radius: 8px;
   background-color: #F4F7FC;
 }
+#tabla-servicios {
+  width: 100%;
+  margin: 16px 0;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+#tabla-servicios th,
+#tabla-servicios td {
+  padding: 10px;
+  border: 1px solid #B9C9E4;
+  text-align: left;
+}
+
+#tabla-servicios th {
+  background-color: #5A2335;
+  color: #D6E2F7;
+}
+
+#tabla-servicios tbody tr:nth-child(even) {
+  background-color: #EEF3FA;
+}
+bash
 #formulario-contacto label {
   display: block;
   margin-top: 12px;
