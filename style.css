@@ -147,3 +147,29 @@ img {
 #site-footer p {
   margin: 0;
 }
+@media (min-width: 700px) {
+  #site-header {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 16px 32px;
+  }
+
+  #site-header h1 {
+    margin-right: auto;
+  }
+
+  #nav-principal ul {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  #formulario-contacto {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0 16px;
+  }
+
+  #formulario-contacto .campo-ancho {
+    grid-column: 1 / -1;
+  }
+}
