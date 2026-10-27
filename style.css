@@ -76,3 +76,74 @@ img {
 #nav-principal a:hover {
   text-decoration: underline;
 }
+#quienes-somos ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 0;
+  list-style: none;
+}
+
+#quienes-somos li {
+  flex: 1 1 200px;
+  padding: 12px;
+  border: 1px solid #B9C9E4;
+  border-radius: 8px;
+  background-color: #F4F7FC;
+}
+#formulario-contacto label {
+  display: block;
+  margin-top: 12px;
+  font-weight: bold;
+}
+
+#formulario-contacto input:not([type="checkbox"]),
+#formulario-contacto select,
+#formulario-contacto textarea {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #B9C9E4;
+  border-radius: 4px;
+  font: inherit;
+}
+
+#formulario-contacto fieldset {
+  margin-top: 12px;
+  padding: 8px 12px;
+  border: 1px solid #B9C9E4;
+  border-radius: 8px;
+}
+
+#formulario-contacto fieldset label {
+  margin-top: 4px;
+  font-weight: normal;
+}
+
+#formulario-contacto input[type="checkbox"] {
+  margin-right: 6px;
+}
+
+#formulario-contacto button {
+  margin-top: 12px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  background-color: #5A2335;
+  color: #D6E2F7;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+#formulario-contacto button:hover {
+  background-color: #7A3047;
+}
+#site-footer {
+  padding: 16px;
+  background-color: #5A2335;
+  color: #D6E2F7;
+  text-align: center;
+}
+
+#site-footer p {
+  margin: 0;
+}
